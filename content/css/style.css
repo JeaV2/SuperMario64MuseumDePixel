@@ -6,3 +6,16 @@
 body {
     background-image: url(../img/bg.webp);
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: SM64;
+    text-align: center;
+}
+
+.marioIdle {
+    float: right;
+}
+
+.peachCastle {
+    float: left;
+}
