@@ -5,11 +5,59 @@
 
 body {
     background-image: url(../img/bg.webp);
+    overflow: hidden;
+}
+
+div {
+    margin: 1px;
+}
+
+.header {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #87cefa;
+    border-radius: 5px;
+    width: 80vw;
+}
+
+.main {
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000;
+    border-radius: 5px;
+    width: 80vw;
+    box-sizing: border-box;
+    height: 75vh;
+}
+
+img {
+    border-radius: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: SM64;
     text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.title {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+p {
+    padding: 5px;
+    margin-top: 1px;
+    font-size: larger;
 }
 
 .marioIdle {
@@ -18,4 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .peachCastle {
     float: left;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right:5px;
 }
