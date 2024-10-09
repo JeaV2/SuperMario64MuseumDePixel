@@ -1,0 +1,50 @@
+.marioIdle img {
+    border: #000 5px solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0px;
+    float: right;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer img {
+    border-radius: 5px;
+    border: #000 5px solid;
+    margin: 0px;
+}
+
+.imgContainer > span {
+    padding: 5px;
+}
+
+.marioIdle {
+    float: right;
+}
+
+.imgContainerLoc {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.imgContainerLoc img {
+    margin-bottom: 4px;
+    border: solid #000 5px;
+    border-radius: 5px;
+}
+
+.first {
+    border-top-left-radius: 0px !important; 
+}
+
+.last {
+    border-bottom-left-radius: 0px !important;
+}
