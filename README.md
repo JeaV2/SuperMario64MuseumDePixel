@@ -2,3 +2,8 @@
 
 ## Info
 Deze webpagina hoort afgebeeld te worden op een informatiescherm van 1080 bij 1920 in portret modus. De pagina zal niet goed worden afgebeeld op een horizontaal scherm.
+
+### Todo
+- [ ] Uploaden naar plesk via FTP
+
+### Done

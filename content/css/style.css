@@ -6,9 +6,10 @@
 body {
     background-image: url(../img/bg.webp);
     overflow: hidden;
+    /* font-size: 1.5rem; */
 }
 
-div {
+.header {
     margin: 1px;
 }
 
@@ -53,8 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title2 {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 5px;
 }
