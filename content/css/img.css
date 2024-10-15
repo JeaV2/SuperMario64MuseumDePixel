@@ -36,15 +36,15 @@
 }
 
 .imgContainerLoc img {
-    margin-bottom: 4px;
+    margin-bottom: 0px;
     border: solid #000 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .first {
-    border-top-left-radius: 0px !important; 
+    border-top-right-radius: 5px !important; 
 }
 
 .last {
-    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 5px !important;
 }

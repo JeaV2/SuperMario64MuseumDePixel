@@ -6,7 +6,7 @@
 body {
     background-image: url(../img/bg.webp);
     overflow: hidden;
-    /* font-size: 1.5rem; */
+    font-size: 19px;
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
     margin-right: auto;
     background-color: #87cefa;
     border-radius: 5px;
-    width: 80vw;
+    width: 85vw;
 }
 
 .main {
@@ -30,7 +30,7 @@ body {
     margin-right: auto;
     border: 5px solid #000;
     border-radius: 5px;
-    width: 80vw;
+    width: 85vw;
     box-sizing: border-box;
     height: 75vh;
 }
